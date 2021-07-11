@@ -11,6 +11,16 @@ spring:
     username: root
     password: youxibi@2018
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/
+
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.yezi.springcloud.entities
+
+
