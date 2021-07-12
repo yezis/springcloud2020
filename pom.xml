@@ -16,6 +16,9 @@
       <module>springcloud-eureka-server-7001</module>
       <module>springcloud-eureka-server-7002</module>
       <module>springcloud-provider-payment-8002</module>
+      <module>springcloud-consumer-feign-order-80</module>
+    <module>springcloud-provider-hystrix-payment-8001</module>
+    <module>springcloud-consumer-feign-hystrix-order-80</module>
   </modules>
 
   <properties>
